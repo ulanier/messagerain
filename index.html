@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>message rain</title>
+	<link rel="stylesheet" href="styles.css">
+	<style type="text/css">
+		
+	*{
+		margin: 0;
+		padding: 0;
+		border: 1px;
+		border-color: black;
+		font-family: Arial;
+		/* border-style: solid; */
+	}
+
+	body{
+		background-color: #fdd7d7;
+	}
+
+	h1{
+		text-align: center;
+		margin: 15px;
+	}
+
+	#main_container{
+		margin: auto;
+		margin-top: 15%;
+		width: 60%;
+		padding: 5px;
+		background-color: #f9bdbd;
+		border-radius: 40px
+
+	}
+
+	#namebox{
+		width:90%;
+		margin: auto;
+		margin-top: 15px;
+	}
+
+	#messagebox{
+		width:90%;
+		margin: auto;
+		margin-top: 15px;
+		height: 140px;
+	}
+
+	.labelcontainer{
+		width: 100%;
+		height: 30px;
+		display:flex;
+		align-items: center;
+	}
+	.inputcontainer{
+		width: 100%;
+		height: 30px;
+	}
+	.labelcontainer label{
+		font-weight: bold;
+	}
+
+	.inputcontainer input{
+		width: 100%;
+		height: 30px;
+		background-color: #f9bdbd;
+		border: #413b3b;
+		border-width: 2px;
+		border-radius: 10px;
+		border-style: solid;
+		font-size: 17px;
+		/* padding: 3px; */
+	}
+
+	.inputcontainer textarea{
+		height: 100px;
+		width:100%;
+		resize: none;
+		overflow: hidden;
+		background-color: #f9bdbd;
+		border: #413b3b;
+		border-width: 2px;
+		border-radius: 10px;
+		border-style: solid;
+		font-size: 17px;
+		/* padding: 3px; */
+	}
+
+	#submitbutton{
+		width:80%;
+		margin: auto;
+		height: 30px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	#submitbutton button{
+		width: 100%;
+		height: 30px;
+		background-color: #f9bdbd;
+		border: #413b3b;
+		border-width: 2px;
+		border-radius: 10px;
+		border-style: solid;
+		font-size: 17px;
+		/* padding: 3px; */
+	}
+
+	#submitbutton button:hover{
+		background-color: #f28989;
+		/* padding: 3px; */
+	}
+
+	#foot{
+		margin: auto;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+
+
+	</style>
+</head>
+<body>
+	<div id="main_container">
+		<h1 id="responce">send an anonymous message</h1>
+		<form id="form">
+
+			<div id="namebox">
+				<div class="labelcontainer"><label>nickname:</label></div>
+				<div class="inputcontainer"><input type="name" id="name" placeholder="optional"></div>
+			</div>
+
+			<div id="messagebox">
+				<div class="labelcontainer"><label>message:</label></div>
+				<div class="inputcontainer"><textarea type="name" id="message" placeholder="message"></textarea></div>
+			</div>
+			<div id="submitbutton"><button type="submit">send</button></div>
+			
+		</form>
+	</div>
+	<div id="foot">bruh, pls dont steal the api key</div>
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+</html>
