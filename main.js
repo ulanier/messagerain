@@ -2,7 +2,7 @@ const form = document.querySelector('#form')
 
 const token = "8157455952:AAECDYkjNQlqBVOWBmUTlHTR0tcic4mMKSA"
 
-const chatId = "5454119535"
+const chatId = "-4710183744"
 
 
 async function sendmessage(mess) {
