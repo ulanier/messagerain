@@ -1,6 +1,6 @@
 const form = document.querySelector('#form')
 
-const token = "8157455952:AAECDYkjNQlqBVOWBmUTlHTR0tcic4mMKSA"
+const token = "7771713616:AAESCtOZHkKTPBlbn1xPFCLXRzEbMhtrHL0"
 
 const chatId = "-4710183744"
 
